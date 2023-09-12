@@ -1,0 +1,107 @@
+:root {
+  --primarycolor: hsl(199, 100%, 33%);
+  --secondarycolor: hsl(187, 85%, 43%);
+  --gradientcolor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whitecolor: hsl(0, 0%, 100%);
+  --blackcolor: hsl(201, 33%, 16%);
+  --textcolor: hsl(240, 4%, 36%);
+  --whitecolordeam: hsl(0, 0%, 93%);
+  --greytext: rgb(190, 190, 190);
+  --inputcolor: rgb(239, 239, 239);
+  --bodycolor: rgb(240, 240, 246);
+  --cardbg: rgb(225, 225, 225);
+}
+
+.footer {
+  background: var(--blackcolor);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.inner-container h1 {
+  text-align: start;
+  color: var(--primarycolor);
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  font-size: 2rem;
+}
+.span {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.inner-container h2 {
+  text-align: start;
+  color: white;
+  margin-left: 1.5rem;
+  /* width: 50%; */
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.footer-box {
+  padding: 2rem;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+}
+.footer-box h4 {
+  color: var(--primarycolor);
+  font-size: 1rem;
+  text-align: left;
+}
+.footer-links a {
+  line-height: 2rem;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+.footer-links a:hover {
+  color: var(--secondarycolor);
+}
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  color: #f1f1f1;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+.footer-copyright {
+  color: var(--secondarycolor);
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 300px) {
+  .footer {
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .footer {
+    display: flex;
+    padding: 0 5rem 0 5rem;
+  }
+}

@@ -1,0 +1,79 @@
+:root {
+  --primarycolor: hsl(199, 100%, 33%);
+  --secondarycolor: hsl(187, 85%, 43%);
+  --gradientcolor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whitecolor: hsl(0, 0%, 100%);
+  --blackcolor: hsl(201, 33%, 16%);
+  --textcolor: hsl(240, 4%, 36%);
+  --whitecolordeam: hsl(0, 0%, 93%);
+  --greytext: rgb(190, 190, 190);
+  --inputcolor: rgb(239, 239, 239);
+  --bodycolor: rgb(240, 240, 246);
+  --cardbg: rgb(225, 225, 235);
+  --cardhover: rgb(255, 255, 255);
+}
+
+.contacts-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+}
+.contacts-contents h4 {
+  color: var(--textcolor);
+  font-size: 0.7rem;
+}
+.contact-img {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 500px) {
+  .contacts-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-img {
+    height: 100px;
+    width: 100px;
+  }
+  .contacts-contents h4 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .contacts-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-img {
+    height: 100px;
+    width: 100px;
+  }
+  .contacts-contents h4 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .contacts-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-img {
+    height: 100px;
+    width: 100px;
+  }
+  .contacts-contents h4 {
+    font-size: 1rem;
+  }
+}

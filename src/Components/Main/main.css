@@ -1,0 +1,93 @@
+:root {
+  --primarycolor: hsl(199, 100%, 33%);
+  --secondarycolor: hsl(187, 85%, 43%);
+  --gradientcolor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whitecolor: hsl(0, 0%, 100%);
+  --blackcolor: hsl(201, 33%, 16%);
+  --textcolor: hsl(240, 4%, 36%);
+  --whitecolordeam: hsl(0, 0%, 93%);
+  --greytext: rgb(190, 190, 190);
+  --inputcolor: rgb(239, 239, 239);
+  --bodycolor: rgb(240, 240, 246);
+  --cardbg: rgb(225, 225, 235);
+  --cardhover: rgb(255, 255, 255);
+}
+.main {
+  width: 100%;
+}
+.secTitle {
+  .title {
+    color: var(--blackcolor);
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+}
+
+.secContent {
+  justify-content: center;
+  gap: 1.5rem;
+}
+.singleInstallation {
+  height: 100%;
+  display: grid;
+  row-gap: 10px;
+  border-radius: 10px;
+  align-items: center;
+  background: var(--cardbg);
+  box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+  overflow: hidden;
+}
+.singleInstallation:hover {
+  background: var(--cardhover);
+  box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+  transition: 0.3sec ease;
+}
+.imageDiv {
+  width: 100%;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 2s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.cardInfo {
+  padding: 1rem;
+}
+.serviceName {
+  color: var(--blackcolor);
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 300px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .secContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.singleInstallation {
+  height: auto;
+}
+
+@media screen and (min-width: 840px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .secContent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

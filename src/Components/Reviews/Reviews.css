@@ -1,0 +1,70 @@
+:root {
+  --primarycolor: hsl(199, 100%, 33%);
+  --secondarycolor: hsl(187, 85%, 43%);
+  --gradientcolor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whitecolor: hsl(0, 0%, 100%);
+  --blackcolor: hsl(201, 33%, 16%);
+  --textcolor: hsl(240, 4%, 36%);
+  --whitecolordeam: hsl(0, 0%, 93%);
+  --greytext: rgb(190, 190, 190);
+  --inputcolor: rgb(239, 239, 239);
+  --bodycolor: rgb(240, 240, 246);
+  --cardbg: rgb(225, 225, 235);
+  --cardhover: rgb(255, 255, 255);
+}
+
+.r-cards {
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 2rem 0 2rem;
+}
+
+.r-card p {
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: var(--textcolor);
+  text-align: center;
+}
+
+#im-icon {
+  color: var(--primarycolor);
+  margin-top: 1rem;
+}
+
+.ri-icons {
+  display: flex;
+  justify-content: center;
+  color: var(--primarycolor);
+}
+
+@media screen and (min-width: 500px) {
+  .r-cards {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 200;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .r-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 200;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .r-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 200;
+  }
+}

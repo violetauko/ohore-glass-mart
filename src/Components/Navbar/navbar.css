@@ -1,0 +1,118 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--whitecolordeam);
+  width: 100%;
+  top: -0.0001rem;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
+}
+
+.logo h1 {
+  font-family: "Dancing Script", cursive;
+  color: var(--primarycolor);
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    position: absolute;
+    background: var(--whitecolordeam);
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: -500rem;
+    left: 50%;
+    padding: 1rem;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.3s ease-in-out;
+  }
+  .activeNav {
+    top: 7rem;
+  }
+  .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .navItem {
+    padding: 0.5rem 0;
+  }
+  .navLink {
+    color: var(--textcolor);
+    font-size: 0.9rem;
+    font-weight: 600;
+    &:hover {
+      color: var(--primarycolor);
+    }
+    .btn {
+      margin-top: 1rem;
+    }
+    a {
+      font-weight: 600;
+      color: var(--whitecolor);
+    }
+  }
+  .closeNav {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: var(--primarycolor);
+    &:hover {
+      color: var(--secondarycolor);
+    }
+  }
+}
+
+.toggleNav {
+  .icon {
+    font-size: 25px;
+    color: var(--primarycolor);
+    &:hover.icon {
+      color: var(--secondarycolor);
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .toggleNav,
+  .closeNav {
+    display: none;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .nav .navLists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .navItem .navLink {
+    color: var(--textcolor);
+    padding: 0 0.45rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .navItem .navLink:hover {
+    color: var(--primarycolor);
+  }
+}
+
+/* @media screen and (min-width: 960px) {
+  .header .nav .navLists .navItem .navItem {
+    padding: 0 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 0 0.7rem;
+  }
+} */
