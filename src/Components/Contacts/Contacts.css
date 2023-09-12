@@ -31,6 +31,21 @@
   height: 50px;
   width: 50px;
 }
+@media screen and (min-width: 300px) {
+  .contacts-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-img {
+    height: 100px;
+    width: 100px;
+  }
+  .contacts-contents h4 {
+    font-size: 1rem;
+  }
+}
 
 @media screen and (min-width: 500px) {
   .contacts-contents {

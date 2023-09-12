@@ -52,7 +52,7 @@ const Nav = () => {
               </a>
             </li>
             <button className="btn">
-              <a href="tel:254727939656">CALL NOW</a>
+              <a href="tel:+254727939656">CALL NOW</a>
             </button>
           </ul>
           <div onClick={removeNav} className="closeNav">
