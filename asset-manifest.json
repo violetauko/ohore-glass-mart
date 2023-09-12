@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ohore-glass-mart/static/css/main.22925d11.css",
-    "main.js": "/ohore-glass-mart/static/js/main.815c45d0.js",
+    "main.css": "/ohore-glass-mart/static/css/main.d1718e26.css",
+    "main.js": "/ohore-glass-mart/static/js/main.86e0e2a6.js",
     "static/media/video2.mp4": "/ohore-glass-mart/static/media/video2.499c30f94fd6ece5a4f3.mp4",
     "static/media/bathroom.jpeg": "/ohore-glass-mart/static/media/bathroom.4a8ba3189a617db79d20.jpeg",
     "static/media/door.jpeg": "/ohore-glass-mart/static/media/door.0e96dc19cf47ee6b3bf6.jpeg",
@@ -24,11 +24,11 @@
     "static/media/call.png": "/ohore-glass-mart/static/media/call.0653f6f296b0ef8e429c.png",
     "static/media/officeDoor.webp": "/ohore-glass-mart/static/media/officeDoor.e11ccfbff87a2c328199.webp",
     "index.html": "/ohore-glass-mart/index.html",
-    "main.22925d11.css.map": "/ohore-glass-mart/static/css/main.22925d11.css.map",
-    "main.815c45d0.js.map": "/ohore-glass-mart/static/js/main.815c45d0.js.map"
+    "main.d1718e26.css.map": "/ohore-glass-mart/static/css/main.d1718e26.css.map",
+    "main.86e0e2a6.js.map": "/ohore-glass-mart/static/js/main.86e0e2a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.22925d11.css",
-    "static/js/main.815c45d0.js"
+    "static/css/main.d1718e26.css",
+    "static/js/main.86e0e2a6.js"
   ]
 }
