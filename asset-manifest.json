@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ohore-glass-mart/static/css/main.22925d11.css",
+    "main.js": "/ohore-glass-mart/static/js/main.815c45d0.js",
+    "static/media/video2.mp4": "/ohore-glass-mart/static/media/video2.499c30f94fd6ece5a4f3.mp4",
+    "static/media/bathroom.jpeg": "/ohore-glass-mart/static/media/bathroom.4a8ba3189a617db79d20.jpeg",
+    "static/media/door.jpeg": "/ohore-glass-mart/static/media/door.0e96dc19cf47ee6b3bf6.jpeg",
+    "static/media/img8.jpeg": "/ohore-glass-mart/static/media/img8.7f4b83aa7eb3c4b0bb27.jpeg",
+    "static/media/imgb.jpeg": "/ohore-glass-mart/static/media/imgb.6008881412abbc04c989.jpeg",
+    "static/media/imgh.jpeg": "/ohore-glass-mart/static/media/imgh.0635d1d971ce56e83399.jpeg",
+    "static/media/imgst.jpeg": "/ohore-glass-mart/static/media/imgst.28eeae25d861eac0206b.jpeg",
+    "static/media/img6.jpeg": "/ohore-glass-mart/static/media/img6.1f75522655811fd67057.jpeg",
+    "static/media/img5.jpeg": "/ohore-glass-mart/static/media/img5.19136fe76cd7fe2fc95f.jpeg",
+    "static/media/imghd.jpeg": "/ohore-glass-mart/static/media/imghd.21cc153af9d69ed4fe90.jpeg",
+    "static/media/img13.jpeg": "/ohore-glass-mart/static/media/img13.7880fd7897791d6f9b35.jpeg",
+    "static/media/WhatsApp.svg.webp": "/ohore-glass-mart/static/media/WhatsApp.svg.5ebe6088772034f744f5.webp",
+    "static/media/img11.jpeg": "/ohore-glass-mart/static/media/img11.53ba11a6786ac5027a62.jpeg",
+    "static/media/staircase.jpg": "/ohore-glass-mart/static/media/staircase.03637b4d6ee35ebcfe5d.jpg",
+    "static/media/escalator.jpg": "/ohore-glass-mart/static/media/escalator.6a1da89da1358cbcd7c8.jpg",
+    "static/media/walls.jpg": "/ohore-glass-mart/static/media/walls.58306df9f121de984383.jpg",
+    "static/media/Windows.jpg": "/ohore-glass-mart/static/media/Windows.f4f3681d03ecb5ff06b7.jpg",
+    "static/media/petitioning.jpg": "/ohore-glass-mart/static/media/petitioning.b8cfc863ec4d07335999.jpg",
+    "static/media/balcony.jpg": "/ohore-glass-mart/static/media/balcony.1855b11a2dd0c4824b39.jpg",
+    "static/media/call.png": "/ohore-glass-mart/static/media/call.0653f6f296b0ef8e429c.png",
+    "static/media/officeDoor.webp": "/ohore-glass-mart/static/media/officeDoor.e11ccfbff87a2c328199.webp",
+    "index.html": "/ohore-glass-mart/index.html",
+    "main.22925d11.css.map": "/ohore-glass-mart/static/css/main.22925d11.css.map",
+    "main.815c45d0.js.map": "/ohore-glass-mart/static/js/main.815c45d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22925d11.css",
+    "static/js/main.815c45d0.js"
+  ]
+}
