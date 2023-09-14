@@ -27,7 +27,7 @@ const Nav = () => {
         <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">
-              <a className="navLink" href="#Home">
+              <a className="navLink" href="#home">
                 Home
               </a>
             </li>

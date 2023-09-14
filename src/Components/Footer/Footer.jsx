@@ -60,7 +60,7 @@ const Footer = () => {
             <FaPhoneAlt /> &nbsp; Phone: +254727939656.
           </p>
           <p>
-            <FaEnvelope /> &nbsp; Email: email@email.com
+            <FaEnvelope /> &nbsp; Email: georgeohore0@gmail.com
           </p>
         </div>
       </div>
